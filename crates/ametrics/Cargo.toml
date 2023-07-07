@@ -1,0 +1,7 @@
+[package]
+name = "ametrics"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+once_cell = { workspace = true }

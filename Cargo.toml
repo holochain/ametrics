@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "crates/ametrics",
+  "crates/ametrics-prometheus",
+]
+
+[workspace.dependencies]
+ametrics = { version = "0.0.1", path = "crates/ametrics" }
+once_cell = "1.18"
+prometheus = "0.13"
