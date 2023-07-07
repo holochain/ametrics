@@ -1,0 +1,8 @@
+[package]
+name = "ametrics-opentelemetry"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+ametrics = { workspace = true }
+opentelemetry = { workspace = true }

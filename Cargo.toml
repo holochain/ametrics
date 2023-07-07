@@ -2,9 +2,11 @@
 members = [
   "crates/ametrics",
   "crates/ametrics-prometheus",
+  "crates/ametrics-opentelemetry",
 ]
 
 [workspace.dependencies]
 ametrics = { version = "0.0.1", path = "crates/ametrics" }
 once_cell = "1.18"
+opentelemetry = { version = "0.20.0-beta.1", package = "ts_opentelemetry", features = [ "metrics" ] }
 prometheus = "0.13"

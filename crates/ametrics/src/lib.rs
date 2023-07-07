@@ -90,7 +90,11 @@ pub struct CounterU64 {
 
 impl CounterU64 {
     /// Construct a new CounterU64 metric.
-    pub const fn new(name: &'static str, desc: Option<&'static str>, unit: Option<&'static str>) -> Self {
+    pub const fn new(
+        name: &'static str,
+        desc: Option<&'static str>,
+        unit: Option<&'static str>,
+    ) -> Self {
         Self {
             name,
             desc,
